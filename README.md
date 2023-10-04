@@ -28,6 +28,7 @@ Step 8 : Save and Run the Program.
              Reg no : 212221230005
 
 ### i) block.x = 1023
+```
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -177,6 +178,7 @@ int main(int argc, char **argv)
 
     return(0);
 }
+```
 ### i) block.x = 1024
 #include "common.h"
 #include <cuda_runtime.h>
