@@ -180,6 +180,7 @@ int main(int argc, char **argv)
 }
 ```
 ### i) block.x = 1024
+~~~
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -329,8 +330,10 @@ int main(int argc, char **argv)
 
    return(0);
 }
+~~~
 
 ### (ii) block.x = 256
+~~~
 #include "common.h"
 #include <cuda_runtime.h>
 #include <stdio.h>
@@ -480,6 +483,7 @@ int main(int argc, char **argv)
 
    return(0);
 }
+~~~
 
 ## Output:
 ### block.x = 1023
